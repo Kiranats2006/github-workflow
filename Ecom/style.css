@@ -1,0 +1,162 @@
+/* Style a fixed, responsive navbar using Flexbox with space between logo and links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+/* Add underline animation on navbar links when hovered with smooth transitions */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative;
+}
+/* Center hero section content vertically and horizontally using Flexbox with full viewport height */
+.navbar a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+/* Add a modern gradient background and large font to the hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background: linear-gradient(135deg, #986659, #feb47b);
+    color: white;
+    font-size: 2.5em;
+}
+/* Style the "Shop Now" button with padding, hover transition, and rounded corners */
+.hero button {
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Create a responsive grid layout for product cards using CSS Grid and auto-fit */
+.hero button:hover {
+    background-color: #543f37; /* Darker shade on hover */
+}
+/* Style product cards with box-shadow, border-radius, padding, and smooth hover scale effect */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+/* Add spacing between product cards using grid-gap and margin */
+.product-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+/* Make product images responsive with max-width 100% and rounded corners */
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+/* Style "Add to Cart" buttons with bright background, white text, and hover transition */
+.product-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Apply a modern sans-serif font globally and adjust font sizes for headings and paragraphs */
+.product-card button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+/* Style the footer with a dark background, centered text, and padding */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Make footer text responsive with smaller font and center alignment on mobile */
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+/* Style header with dark background, horizontal flex layout, padding, and shadow */
+header {
+    background-color: #444;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Style the site title with larger font and letter spacing */
+header h1 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+}
+/* Use Flexbox to space out navigation links evenly */
+header nav {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+/* Style nav links with white text, no underline, and transition */
+header nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/* Add animated underline effect to nav links on hover using ::after pseudo-element */
+header nav a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+/* Reset default margin and add base font and background */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Add consistent vertical spacing to all major sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+/* Add top margin to footer to separate from content */
+footer {
+    margin-top: 20px;
+}
+/* Add vertical spacing and background to the hero section */
+.hero {
+    padding: 40px 20px;
+    background-color: #ff7e5f; /* Fallback color */
+    background-image: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+}
+/* Add spacing below hero to separate it from product cards */
+.hero + .product-grid {
+    margin-top: 40px;
+}
+/* Style the products section with padding and spacing */
+.products {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
