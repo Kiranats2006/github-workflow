@@ -1,0 +1,80 @@
+
+
+### **Prompt Log Entry 1**
+
+**Prompt:**
+“How can I use Flexbox to center text and a button in a hero section?”
+
+**AI Response Summary:**
+Told me to use `display: flex; justify-content: center; align-items: center; height: 100vh`.
+
+**My Implementation:**
+Used the code as is. It worked well for desktop. I changed `height` to `60vh` for better responsiveness on mobile.
+
+**Reflection:**
+Prompt was direct and reusable. Helped me grasp Flexbox basics better.
+
+---
+
+### **Prompt Log Entry 2**
+
+**Prompt:**
+“How do I animate an underline on nav links when hovering?”
+
+**AI Response Summary:**
+Suggested using `::after` pseudo-element with `position: absolute`, `width: 0`, and transition to expand on hover.
+
+**My Implementation:**
+Still using plain color change for hover, but planning to add underline animation next.
+
+**Reflection:**
+Understood pseudo-element animations better. Will implement for better UX polish.
+
+---
+
+### **Prompt Log Entry 3**
+
+**Prompt:**
+“How can I make a responsive grid for product cards?”
+
+**AI Response Summary:**
+Use `display: grid` and `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))`.
+
+**My Implementation:**
+Copied and tested — works beautifully for different screen sizes.
+
+**Reflection:**
+Really clean solution. Now confident using `auto-fit` for responsive designs.
+
+---
+
+### **Prompt Log Entry 4**
+
+**Prompt:**
+“What’s the best way to style a CTA button in the hero section?”
+
+**AI Response Summary:**
+Use padding, background color, no border, border-radius, and a hover transition for background-color.
+
+**My Implementation:**
+Used `#ff6347` as the default and a darker shade on hover.
+
+**Reflection:**
+Looks modern and functional. Learned to use hover transitions for better interactivity.
+
+---
+
+### **Prompt Log Entry 5**
+
+**Prompt:**
+“How to space out nav items evenly across the header?”
+
+**AI Response Summary:**
+Use `display: flex` with `gap`, and for full spacing between ends, wrap nav and logo inside a flex container with `justify-content: space-between`.
+
+**My Implementation:**
+Used `display: flex; justify-content: space-between` on `.navbar` and gap in `nav`.
+
+**Reflection:**
+Great trick. Helped align logo and links properly and adapt well on different screens.
+
